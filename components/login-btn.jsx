@@ -12,8 +12,13 @@ export default function Login() {
   }
   return (
     <>
-      Not signed in <br />
-      <button onClick={() => signIn()}>Sign in</button>
+      Não logado - Clique aqui para logar <br />
+      <button
+        className="rounded-md bg-green-800 text-slate-200"
+        onClick={signIn}
+      >
+        Logar
+      </button>
     </>
   );
 }
