@@ -1,4 +1,4 @@
-import { getAnalytics } from "firebase/analytics";
+// import { getAnalytics } from "firebase/analytics";
 import { initializeApp, getApps, getApp } from "firebase/app";
 import "firebase/auth";
 import { getAuth } from "firebase/auth";
@@ -25,7 +25,7 @@ export const auth = getAuth();
 
 export const storage = getStorage();
 
-export const firebaseAnalytics =
-  typeof window !== "undefined" && getAnalytics(app);
+// export const firebaseAnalytics =
+//   typeof window !== "undefined" && getAnalytics(app);
 
 export default db;
